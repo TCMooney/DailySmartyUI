@@ -18,9 +18,7 @@ class ResultsPost extends Component {
 }
 
 function mapStateToProps(state) {
-    return {
-        state
-    }
+    return { state }
 }
 
 export default connect(mapStateToProps)(ResultsPost);
