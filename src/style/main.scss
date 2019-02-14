@@ -1,6 +1,4 @@
-.post-topic {
-    margin:0 4px;
-}
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -30,6 +28,7 @@ $color-blue-one: #0079FF;
 
 @import 'mixins';
 @import 'search-bar';
+@import 'posts';
 @import 'recent-posts';
 @import 'home';
 @import 'results';
