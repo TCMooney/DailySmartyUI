@@ -42,3 +42,20 @@
 
     }
 }
+
+.post-link {
+    min-height: 70px;
+    display: flex;
+
+    &__box {
+        min-width: 70px;
+        background-color: $color-gray-two;
+        margin-right: 16px;
+    }
+
+    &__link a {
+        color: $color-gray-three;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
