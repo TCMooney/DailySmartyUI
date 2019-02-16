@@ -38,14 +38,16 @@
         font-size: 18px;
         line-height: 22px;
     }
-    &__link {
-
+    &__links {
+        display: flex;
     }
 }
 
 .post-link {
     min-height: 70px;
     display: flex;
+    flex-basis: 205px;
+    margin-right: 37px;
 
     &__box {
         min-width: 70px;
